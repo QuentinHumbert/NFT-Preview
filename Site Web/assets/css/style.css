@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Outfit';
+    background-color: hsl(217, 54%, 11%);
+    font-size: 18px;
+    width: 65%;
+    margin: auto;
+}
+
+main {
+    background-color: hsl(216, 50%, 16%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50%;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 7px 10px 21px 11px rgba(0, 0, 0, 0.2);
+}
+
+.cercle {
+    height: 50px;
+    width: 50px;
+    background: linear-gradient(45deg, #00CEB2 0%, #007FA4 50%, #0057C5 100%);
+    border-radius: 100%;
+    border: 8px groove #1C6EA4;
+    margin: auto;
+}
+
+
+.imgcrypto {
+    width: 75%;
+    border-radius: 5px;
+    border-radius: 100%;
+    border: 10px groove hsl(178, 100%, 50%);
+}
+
+.imgcrypto:hover {
+    filter: sepia(100%);
+}
+
+.haut {
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    margin-bottom: 10px;
+}
+
+h1:hover {
+    color: hsl(178, 100%, 50%);
+}
+
+.pricetime {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    padding-bottom: 10px;
+    /* border-bottom: 1px hsla(215, 52%, 70%, 0.459) solid; */
+}
+
+.price {
+    color: hsl(178, 100%, 50%);
+    display: flex;
+    align-items: center;
+}
+
+.time {
+    display: flex;
+    align-items: center;
+}
+
+.pimage {
+    margin-right: 5px;
+}
+
+p {
+    color: hsl(215, 51%, 70%);
+}
+
+.bas {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    margin-top: 20px;
+    margin-left: 5px;
+    position: relative;
+}
+
+.imgcrea {
+    width: 10%;
+    border-radius: 100%;
+    border: 0.5px solid white;
+    margin-right: 6px;
+}
+
+.imgcrea::before{
+    content:'';
+    background-color: hsla(215, 52%, 70%, 0.459);
+    width: 55%;
+    height: 1px;
+    top: 4em;
+}
+
+.crea {
+    color: white;
+}
+
+.crea:hover {
+    color: hsl(178, 100%, 50%);
+}
